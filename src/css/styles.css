@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   height: 100%;
+   width: 100%;
+   font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+span.check-icon {
+  margin-right: 10px;
+}
+
+.scroller {
+  overflow-y: auto;
+  width: 80%;
+  height: 60vh;
+}
+
+div.portfolio-page > h1 {
+  font-weight: 800; 
+  text-transform: uppercase;
+}
+
+div.technologies-page > h1, h6 {
+  font-weight: 800; 
+  text-transform: uppercase;
+}
+
+div.about-page > h1, h2, span {
+  font-weight: 800; 
+  text-transform: uppercase;
+}
+
+div.experience-page > h1, h5 {
+  font-weight: 800; 
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: rgba(255, 255, 255, 0.8 );
+}
+
+a.email-info {
+  color: #FF8400;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+img.profile-image {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 100%;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+nav.navbar-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 20vw;
+  background-color: #0dcaf0;
+  height: 100vh;
+  position: fixed;
+}
+
+ul.navbar-vertical-container{
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+}
+
+li.navbar-vertical-item {
+  padding: 8px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+li a:hover {
+ color: #408080; 
+}
+
+section.main-section {
+  padding-left: 20vw;
+  margin-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  color: black;
+}
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+}
+
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+
+
+
