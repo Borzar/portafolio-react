@@ -1,8 +1,8 @@
 const imgStyle = {
-  width: "50px",
-  height: "50px",
-  borderRadius: "12px",
-};
+  width: '50px',
+  height: '50px',
+  borderRadius: '12px',
+}
 
 export const Technologies = () => {
   return (
@@ -101,5 +101,5 @@ export const Technologies = () => {
         </ul>
       </div>
     </>
-  );
-};
+  )
+}

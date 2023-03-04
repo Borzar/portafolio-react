@@ -23,27 +23,28 @@ export const About = () => {
         desarrollador full stack.
       </div>
       <br />
+      <br />
       <div className="d-flex gap-4">
         <a
-          className="btn btn-secondary"
+          className="btn btn-secondary shadow"
           href="assets/CV_Boris_Zarate_Lobos_2023.pdf"
           download
         >
           Curriculum
         </a>
         <a
-          className="btn btn-secondary"
+          className="btn btn-secondary shadow"
           href="https://github.com/Borzar?tab=repositories"
         >
           GitHub
         </a>
         <a
-          className="btn btn-secondary"
+          className="btn btn-secondary shadow"
           href="https://www.linkedin.com/in/boris-zarate-lobos-324b9b10a/"
         >
           LinkedIn
         </a>
       </div>
     </div>
-  );
-};
+  )
+}

@@ -17,5 +17,5 @@ export const Experiencie = () => {
         tablero kanban para la asignación de tareas
       </p>
     </div>
-  );
-};
+  )
+}

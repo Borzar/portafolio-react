@@ -1,18 +1,27 @@
-html, body {
+html,
+body {
   margin: 0;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   height: 100%;
-   width: 100%;
-   font-size: 16px;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+
+.active {
+  background-color: #ff8400;;
+  border-radius: 4px;
+  color: #000000;
 }
 
 h1 {
   margin-bottom: 3rem;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
 }
 
@@ -27,33 +36,37 @@ span.check-icon {
 }
 
 div.portfolio-page > h1 {
-  font-weight: 800; 
+  font-weight: 800;
   text-transform: uppercase;
 }
 
-div.technologies-page > h1, h6 {
-  font-weight: 800; 
+div.technologies-page > h1,
+h6 {
+  font-weight: 800;
   text-transform: uppercase;
 }
 
-div.about-page > h1, h2, span {
-  font-weight: 800; 
+div.about-page > h1,
+h2,
+span {
+  font-weight: 800;
   text-transform: uppercase;
 }
 
-div.experience-page > h1, h5 {
-  font-weight: 800; 
+div.experience-page > h1,
+h5 {
+  font-weight: 800;
   text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
   display: block;
-  color: rgba(255, 255, 255, 0.8 );
+  color: rgba(255, 255, 255, 0.8);
 }
 
 a.email-info {
-  color: #FF8400;
+  color: #ff8400;
   text-decoration: underline;
   font-weight: 700;
 }
@@ -71,12 +84,12 @@ nav.navbar-vertical {
   align-items: center;
   position: absolute;
   width: 20vw;
-  background-color: #0dcaf0;
+  background-color: #087990;
   height: 100vh;
   position: fixed;
 }
 
-ul.navbar-vertical-container{
+ul.navbar-vertical-container {
   list-style-type: none;
   align-items: center;
   padding: 0;
@@ -90,7 +103,7 @@ li.navbar-vertical-item {
 }
 
 li a:hover {
- color: #408080; 
+  color: #000000;
 }
 
 section.main-section {
@@ -115,6 +128,3 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
-
-
-
