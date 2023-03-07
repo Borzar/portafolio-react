@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { About } from './pages/About'
 import { Experiencie } from './pages/Experiencie'
 import { Portfolio } from './pages/Portfolio'
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
       <nav className="navbar-vertical" id="main-navbar">
-        <ul className="navbar-vertical-container">
+        <ul className="navbar-vertical-container ">
           <li className="navbar-vertical-item">
             <img
               className="profile-image"

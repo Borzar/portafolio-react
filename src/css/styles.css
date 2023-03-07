@@ -11,9 +11,7 @@ body {
 }
 
 .active {
-  background-color: #ff8400;;
-  border-radius: 4px;
-  color: #000000;
+  color: #65ec2f;
 }
 
 h1 {
@@ -82,17 +80,30 @@ nav.navbar-vertical {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   width: 20vw;
-  background-color: #087990;
+  background-color: #325368;
   height: 100vh;
   position: fixed;
+}
+@media (max-width: 768px) {
+  nav.navbar-vertical {
+    width: 100%;
+    height: auto;
+  }
 }
 
 ul.navbar-vertical-container {
   list-style-type: none;
   align-items: center;
   padding: 0;
+}
+@media (max-width: 768px) {
+  ul.navbar-vertical-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    padding-right: 12px;
+  }
 }
 
 li.navbar-vertical-item {
@@ -101,9 +112,14 @@ li.navbar-vertical-item {
   font-weight: 700;
   letter-spacing: 0.05rem;
 }
+@media (max-width: 768px) {
+  li.navbar-vertical-item img {
+    display: none;
+  }
+}
 
 li a:hover {
-  color: #000000;
+  color: #65ec2f;
 }
 
 section.main-section {
@@ -113,6 +129,13 @@ section.main-section {
   background-color: white;
   color: black;
 }
+@media (max-width: 768px) {
+  section.main-section {
+    width: 100%;
+    padding: 2vh;
+    margin: 0;
+  }
+}
 
 section.resume-section {
   display: flex;
@@ -121,6 +144,14 @@ section.resume-section {
 
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 2vh;
+  }
 }
 
 @media (min-width: 768px) {

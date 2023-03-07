@@ -79,7 +79,7 @@ export const Portfolio = () => {
   return (
     <div className="portfolio-page">
       <h1>Portafolio</h1>
-      <div className="scroller rounded shadow">
+      <div className="table-container scroller rounded shadow">
         <table className="table table-light table-hover">
           <thead className="table-secondary sticky-top">
             <tr>
