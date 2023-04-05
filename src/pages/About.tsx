@@ -19,8 +19,9 @@ export const About = () => {
         desempeño como desarrollador Frontend especialmente con la biblioteca de
         React, aunque también he desarrollado algunas API's del lado backend,
         utilizando NodeJS, Express y MongoDB. <br /> <br />
-        Actualmente busco ampliar mi campo laboral aspirando a ser un
-        desarrollador full stack.
+        Me gusta la programación y la resolución de problemas. Me motiva el
+        crecimiento profesional para obtener los mejores resultados en cada
+        proyecto.
       </div>
       <br />
       <br />
