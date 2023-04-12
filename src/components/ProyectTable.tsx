@@ -10,7 +10,7 @@ export const ProyectTable = () => {
               <th scope="col">#</th>
               <th scope="col">Nombre</th>
               <th scope="col">Lenguaje</th>
-              <th scope="col">Framework</th>
+              <th scope="col">Framework/libreria</th>
               <th scope="col">Link</th>
             </tr>
           </thead>
@@ -21,7 +21,7 @@ export const ProyectTable = () => {
                 <th scope="row">{count++}</th>
                 <td>{x.title}</td>
                 <td>{x.languages}</td>
-                <td>{x.framework}</td>
+                <td>{x["framework-libreria"]}</td>
                 <td>
                   <a href={x.link} className="btn btn-outline-dark">
                     GitHub

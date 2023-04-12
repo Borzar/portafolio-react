@@ -1,6 +1,6 @@
 export interface proyectsProps {
   title: string
   languages: string
-  framework: string
+  "framework-libreria": string
   link: string
 }
