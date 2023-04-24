@@ -2,22 +2,28 @@ import { proyectsProps } from "./interface"
 
 export const proyects: proyectsProps[] =  [
   {
+    title: 'Angular bases',
+    languages: 'Typescript',
+    "framework-libreria": 'Angular',
+    link: 'https://github.com/Borzar/angular-bases',
+  },
+  {
+    title: 'Angular Gifs',
+    languages: 'Typescript',
+    "framework-libreria": 'Angular',
+    link: 'https://github.com/Borzar/angular-gifs-app',
+  },
+  {
     title: 'React Todo',
     languages: 'Typescript',
     "framework-libreria": 'React',
     link: 'https://github.com/Borzar/react-todo',
   },
   {
-    title: 'Calendar APP',
+    title: 'React Calendar APP',
     languages: 'Typescript',
     "framework-libreria": 'React',
     link: 'https://github.com/Borzar/calendar-app',
-  },
-  {
-    title: 'Gifs APP',
-    languages: 'Typescript',
-    "framework-libreria": 'Angular',
-    link: 'https://github.com/Borzar/gifsApp-angular',
   },
   {
     title: 'React notes',
@@ -26,16 +32,10 @@ export const proyects: proyectsProps[] =  [
     link: 'https://github.com/Borzar/react-notes-app',
   },
   {
-    title: 'Calendar backend',
+    title: 'Express Calendar backend',
     languages: 'Javascript',
     "framework-libreria": 'NodeJS-Express',
     link: 'https://github.com/Borzar/calendar-backend',
-  },
-  {
-    title: 'Angular bases',
-    languages: 'Typescript',
-    "framework-libreria": 'Angular',
-    link: 'https://github.com/Borzar/angular-bases',
   },
   {
     title: 'Express backend',
@@ -50,28 +50,27 @@ export const proyects: proyectsProps[] =  [
     link: 'https://github.com/Borzar/python-course',
   },
   {
-    title: 'Crud react hook form',
+    title: 'React Crud hook form',
     languages: 'Typescript',
     "framework-libreria": 'React',
     link: 'https://github.com/Borzar/crud-react-hook-form',
   },
   {
-    title: 'Heroes APP',
+    title: 'React Heroes APP',
     languages: 'Typescript',
     "framework-libreria": 'React',
     link: 'https://github.com/Borzar/HeroesApp',
   },
   {
-    title: 'Poke front',
+    title: 'React Poke front',
     languages: 'Typescript',
     "framework-libreria": 'React',
     link: 'https://github.com/Borzar/poke-front',
   },
   {
-    title: 'Giphy',
+    title: 'React Giphy',
     languages: 'Typescript',
     "framework-libreria": 'React',
-
     link: 'https://github.com/Borzar/giphy',
   },
 ]
