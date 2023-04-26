@@ -2,6 +2,12 @@ import { proyectsProps } from "./interface"
 
 export const proyects: proyectsProps[] =  [
   {
+    title: 'Angular Countries',
+    languages: 'Typescript',
+    "framework-libreria": 'Angular',
+    link: 'https://github.com/Borzar/angular-country',
+  },
+  {
     title: 'Angular bases',
     languages: 'Typescript',
     "framework-libreria": 'Angular',
