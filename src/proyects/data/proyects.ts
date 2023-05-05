@@ -2,6 +2,12 @@ import { proyectsProps } from "./interface"
 
 export const proyects: proyectsProps[] =  [
   {
+    title: 'Angular Age Calculator',
+    languages: 'Typescript',
+    "framework-libreria": 'Angular',
+    link: 'https://github.com/Borzar/angular-age-calculator',
+  },
+  {
     title: 'Angular Countries',
     languages: 'Typescript',
     "framework-libreria": 'Angular',
